@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="./assets/m.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="./assets/m.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@500;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="App.css">
+    <script src="App.js"></script>
+    <title>Manga Nation</title>
+  </head>
+  <body>
+    <div id="root">
+      <header>
+        <span class="title-page">Manga Nation</span>
+      </header>
+      <div class="hero">
+        <div>
+          <img src="https://blog.cloudgym.io/wp-content/uploads/2018/10/black-friday-2894130_1920.png" class="promo-img"/>
+        </div>
+        <div class="aaaa">
+          <h1 class="title">Semana Otaku</h1>
+          <p class="title">Até 60% de desconto</p>
+        </div>
+      </div>
+
+      <div class="container-destaque">
+        <h1 class="destaque-title">Destaque</h1>
+        <div class="container-manga">
+
+          <div class="content-manga">
+            <button class="manga-button">
+              <img class="manga-img" src="https://img.assinaja.com/assets/tZ/004/img/94689_520x520.jpg"/>
+            </button>
+            <span>Black Clover</span>
+            <button class="manga-button2">Veja</button>
+          </div>
+          
+          <div class="content-manga">
+            <button class="manga-button">
+              <img class="manga-img" src="https://img.assinaja.com/assets/tZ/004/img/269219_520x520.jpg"/>
+            </button>
+            <span>One Piece</span>
+            <button class="manga-button2">Veja</button>
+          </div>
+
+          <div class="content-manga">
+            <button class="manga-button">
+              <img class="manga-img" src="https://img.assinaja.com/assets/tZ/004/img/222581_520x520.jpg"/>
+            </button>
+            <span>Spy x Family</span>
+            <button class="manga-button2">Veja</button>
+          </div>
+
+          <div class="content-manga">
+            <button class="manga-button">
+              <img class="manga-img" src="https://img.assinaja.com/assets/tZ/004/img/149827_520x520.JPG"/>
+            </button>
+            <span>Naruto</span>
+            <button class="manga-button2">Veja</button>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="container-form">
+        <h1 class="message">Receba as novidades no seu email</h1>
+        <div class="form">
+          <input type="text"  id="nome"  class="input" placeholder="Digite seu nome:" required/>
+          <input type="email" id="email" class="input" placeholder="Digite seu e-mail:" required/>
+          <button id="teste" type="button" class="button" onClick="registrar()">Cadastrar</button>
+        </div>
+      </div>
+      <footer class="footer">
+        <p>created by <a href="" class="footer-link">pablwoAraujo</a> - hiringCoders</p>
+      </footer>
+
+    </div>
+    
+  </body>
+</html>
