@@ -24,7 +24,7 @@
   <body>
     <div id="root">
       <header>
-        <span class="title-page">Manga Nation</span>
+        <a class="title-page" href="#">Manga Nation</a>
       </header>
       <div class="hero">
         <div>
@@ -44,42 +44,44 @@
             <button class="manga-button">
               <img class="manga-img" src="https://img.assinaja.com/assets/tZ/004/img/94689_520x520.jpg"/>
             </button>
-            <span>Black Clover</span>
-            <button class="manga-button2">Veja</button>
+            <span>Black Clover - 01</span>
+            <button class="manga-button2" onclick="adicionarAoCarrinho(0)">Adiconar ao carrinho</button>
           </div>
           
           <div class="content-manga">
             <button class="manga-button">
               <img class="manga-img" src="https://img.assinaja.com/assets/tZ/004/img/269219_520x520.jpg"/>
             </button>
-            <span>One Piece</span>
-            <button class="manga-button2">Veja</button>
+            <span>One Piece - 98</span>
+            <button class="manga-button2" onclick="adicionarAoCarrinho(3)">Adiconar ao carrinho</button>
           </div>
 
           <div class="content-manga">
             <button class="manga-button">
               <img class="manga-img" src="https://img.assinaja.com/assets/tZ/004/img/222581_520x520.jpg"/>
             </button>
-            <span>Spy x Family</span>
-            <button class="manga-button2">Veja</button>
+            <span>Spy X Family - 01</span>
+            <button class="manga-button2" onclick="adicionarAoCarrinho(1)">Adiconar ao carrinho</button>
           </div>
 
           <div class="content-manga">
             <button class="manga-button">
               <img class="manga-img" src="https://img.assinaja.com/assets/tZ/004/img/149827_520x520.JPG"/>
             </button>
-            <span>Naruto</span>
-            <button class="manga-button2">Veja</button>
+            <span>Naruto Gold - 01</span>
+            <button class="manga-button2" onclick="adicionarAoCarrinho(2)">Adiconar ao carrinho</button>
           </div>
 
         </div>
       </div>
 
       <div class="container-form">
-        <h1 class="message">Receba as novidades no seu email</h1>
+        <h1 class="message">Cadastre-se e receba as novidades no seu email</h1>
         <div class="form">
           <input type="text"  id="nome"  class="input" placeholder="Digite seu nome:" required/>
           <input type="email" id="email" class="input" placeholder="Digite seu e-mail:" required/>
+          <input type="text" id="endereco" class="input" placeholder="Digite seu endereço:" required/>
+
           <button id="teste" type="button" class="button" onClick="registrar()">Cadastrar</button>
         </div>
       </div>
